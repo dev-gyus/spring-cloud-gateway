@@ -2,6 +2,6 @@ spring:
   cloud:
     config:
       uri: http://127.0.0.1:8888
-      name: config-service
+      name: ecommerce # config server에서 사용하는 ecommerce.yml파일
 #  profiles:
 #    active: dev
